@@ -1,13 +1,18 @@
 /* your code */
-table,{
-	width:100%;
-	text-align:left;
+table{
 	border-collapse:collapse;
-	
+     width:100%
 }
-td th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-} 
-	
+
+thead{
+	background-color:yellowgreen;    	
+}
+tr:nth-child(even)
+{
+	background-color :pink;
+}
+th,td{
+/* 	border:1 px solid #dddddd; */
+	padding:8px;
+	text-align:left;	
+}
