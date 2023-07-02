@@ -1,18 +1,24 @@
 /* your code */
-table{
-	border-collapse:collapse;
-     width:100%
+table {
+width: 100%;
+border-collapse: collapse;
 }
 
-thead{
-	background-color:yellowgreen;    	
+thead {
+background-color: yellowgreen;
+color: white;
 }
-tr:nth-child(even)
-{
-	background-color :pink;
+
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
 }
-th,td{
-/* 	border:1 px solid #dddddd; */
-	padding:8px;
-	text-align:left;	
+
+tbody tr:nth-child(even) {
+background-color: pink;
+}
+
+tbody tr:hover {
+background-color: lightgray;
 }
